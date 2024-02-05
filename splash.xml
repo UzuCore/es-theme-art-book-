@@ -2,30 +2,24 @@
    <formatVersion>7</formatVersion>
    <view name="splash">
       <splash name="splash">
-         <backgroundColor>000000</backgroundColor>
+         <backgroundColor>010101</backgroundColor>
       </splash>
       <image name="background">
-         <origin>0 0</origin>
-         <pos>1 1</pos>
+         <!-- Leave default for better OS/device portability -->
       </image>
       <image name="progressbar">
-         <origin>0.5 0.5</origin>
-         <pos>0.5 0.5</pos>
          <color>222222</color>
          <colorEnd>222222</colorEnd>
       </image>
       <image name="progressbar:active">
-         <color>333333</color>
-         <colorEnd>333333</colorEnd>
+         <color>444444</color>
+         <colorEnd>444444</colorEnd>
       </image>
       <text name="label">
-         <origin>0.5 0.5</origin>
-         <pos>0.5 0.6</pos>
          <alignment>center</alignment>
          <fontPath>./_inc/fonts/Oxygen-Bold.ttf</fontPath>
          <fontSize>0.04</fontSize>
          <color>ffffff</color>
-         <forceUppercase>true</forceUppercase>
       </text>
    </view>
 </theme>
