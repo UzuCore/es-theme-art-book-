@@ -93,6 +93,7 @@ You can modify the font size used to display gamelists
 * If you use Batocera... then the version [here](https://github.com/anthonycaccese/art-book-next-es) will work out of the box with that distribution.
 
 ### **Acknowledgments**
+* This theme is based on work by [Anthony Caccese](https://github.com/anthonycaccese). It only contains a few modifications for the AmberELEC distribution.
 * Most system logos were sourced and modified from the excellent work done by Dan Patrick [here](https://archive.org/details/console-logos-professionally-redrawn-plus-official-versions).  I modified each to be compatible with EmulationStation's current SVG support.
 * ChangaOne font is by [Eduardo Tunni](https://www.fontsquirrel.com/fonts/changa)
 * Oxygen font is by [Vernon Adams](https://www.fontsquirrel.com/fonts/oxygen)
