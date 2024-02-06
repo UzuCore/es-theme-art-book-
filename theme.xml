@@ -49,9 +49,9 @@ license:       creative commons CC-BY-NC-SA
 
    <!-- System View Style -->
    <subset name="system-view-style" displayName="System View: Style">
-      <include name="multi" displayName="Multi Artwork" />
-      <include name="centered" displayName="Centered Artwork (Multiple Logos)" />
       <include name="centered-one-logo" displayName="Centered Artwork (Single Logo)" />
+      <include name="centered" displayName="Centered Artwork (Multiple Logos)" />
+      <include name="multi" displayName="Multi Artwork" />     
       <include name="no-artwork" displayName="No Artwork" />
       <include name="centered-custom" displayName="Centered Artwork (Custom)" />
       <include name="multi-custom" displayName="Multi Artwork (Custom)" />
@@ -60,10 +60,10 @@ license:       creative commons CC-BY-NC-SA
 
    <!-- Gamelist View Style -->
    <subset name="gamelist-view-style" displayName="Gamelist View: Style">
-      <include name="metadata-on" displayName="Metadata On" />
       <include name="metadata-on-immersive" displayName="Metadata On (Immersive)" />
-      <include name="metadata-off" displayName="Metadata Off" />
+      <include name="metadata-on" displayName="Metadata On" />
       <include name="metadata-off-immersive" displayName="Metadata Off (Immersive)" />
+      <include name="metadata-off" displayName="Metadata Off" />
    </subset>
 
    <view name="screen">
