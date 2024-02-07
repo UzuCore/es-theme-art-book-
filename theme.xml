@@ -19,12 +19,13 @@ license:       creative commons CC-BY-NC-SA
 
    <!-- Aspect Ratio -->
    <subset name="aspect-ratio" displayName="Aspect Ratio">
-      <include name="16-9" displayName="16:9" />
-      <include name="16-10" displayName="16:10" />
-      <include name="4-3" displayName="4:3" />
-      <include name="3-2" displayName="3:2" />
-      <include name="5-3" displayName="5:3" />
-      <include name="1-1" displayName="1:1" />
+      <include ifArch="amberelec-rg552" name="5-3" displayName="5:3" />
+      <include ifArch="amberelec-rg351p" name="3-2" displayName="3:2" />
+      <include ifArch="amberelec-rg351mp,amberelec-rg351v" name="4-3" displayName="4:3" />
+      <include ifNotArch="amberelec-rg351p,amberelec-rg351mp,amberelec-rg351v" name="16-9" displayName="16:9" />
+      <include ifNotArch="amberelec-rg552,amberelec-rg351p,amberelec-rg351mp,amberelec-rg351v" name="4-3" displayName="4:3" />
+      <include ifNotArch="amberelec-rg552,amberelec-rg351p,amberelec-rg351mp,amberelec-rg351v" name="3-2" displayName="3:2" />
+      <include ifNotArch="amberelec-rg552,amberelec-rg351p,amberelec-rg351mp,amberelec-rg351v" name="5-3" displayName="5:3" />
    </subset>
 
    <!-- Color Scheme -->
