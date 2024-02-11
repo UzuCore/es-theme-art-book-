@@ -61,10 +61,10 @@ license:       creative commons CC-BY-NC-SA
 
    <!-- Gamelist View Style -->
    <subset name="gamelist-view-style" displayName="Gamelist View: Style">
-      <include name="metadata-on-immersive" displayName="Metadata On (Immersive)" />
       <include name="metadata-on" displayName="Metadata On" />
-      <include name="metadata-off-immersive" displayName="Metadata Off (Immersive)" />
+      <include name="metadata-on-immersive" displayName="Metadata On (Immersive)" />
       <include name="metadata-off" displayName="Metadata Off" />
+      <include name="metadata-off-immersive" displayName="Metadata Off (Immersive)" />
    </subset>
 
    <view name="screen">
