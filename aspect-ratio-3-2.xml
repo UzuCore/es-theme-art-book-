@@ -40,7 +40,7 @@
          <fontSize>0.05</fontSize>
       </text>
       <textlist name="gamelist">
-         <fontSize>0.041666666666667</fontSize><!-- 20 -->
+         <fontSize>0.034</fontSize><!-- 20 -->
          <lineSpacing>1.68</lineSpacing>
       </textlist>
    </view>
