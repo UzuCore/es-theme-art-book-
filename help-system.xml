@@ -1,9 +1,9 @@
 <theme>
    <formatVersion>7</formatVersion>
-   <subset name="swap-a-b" displayName="Switch A &amp; B Buttons in EmulationStation">
+   <!--<subset name="swap-a-b" displayName="Switch A &amp; B Buttons in EmulationStation">
       <include name="true" displayName="True" />
       <include name="false" displayName="False" />
-   </subset>
+   </subset>-->
    <view name="system,basic,detailed,video">
       <helpsystem ifHelpPrompts="true" name="help">
          <textColor>FFFFFF77</textColor>

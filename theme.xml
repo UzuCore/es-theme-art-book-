@@ -22,7 +22,7 @@ license:       creative commons CC-BY-NC-SA
       <include ifArch="amberelec-rg552" name="5-3" displayName="5:3" />
       <include ifArch="amberelec-rg351p" name="3-2" displayName="3:2" />
       <include ifArch="amberelec-rg351mp,amberelec-rg351v" name="4-3" displayName="4:3" />
-      <include ifNotArch="amberelec-rg351p,amberelec-rg351mp,amberelec-rg351v" name="16-9" displayName="16:9" />
+      <include ifNotArch="amberelec-rg552,amberelec-rg351p,amberelec-rg351mp,amberelec-rg351v" name="16-9" displayName="16:9" />
       <include ifNotArch="amberelec-rg552,amberelec-rg351p,amberelec-rg351mp,amberelec-rg351v" name="4-3" displayName="4:3" />
       <include ifNotArch="amberelec-rg552,amberelec-rg351p,amberelec-rg351mp,amberelec-rg351v" name="3-2" displayName="3:2" />
       <include ifNotArch="amberelec-rg552,amberelec-rg351p,amberelec-rg351mp,amberelec-rg351v" name="5-3" displayName="5:3" />
@@ -42,10 +42,10 @@ license:       creative commons CC-BY-NC-SA
    <include ifSubset="color-scheme:custom">${themeCustomizationsPath}colors.xml</include>
 
    <!-- Fonts -->
-   <subset name="fonts" displayName="Font Size">
+   <!--<subset name="fonts" displayName="Font Size">
       <include name="default" displayName="Default" />
       <include name="custom" displayName="Custom" />
-   </subset>
+   </subset>-->
 
    <!-- System View Style -->
    <subset name="system-view-style" displayName="System View: Style">
