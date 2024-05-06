@@ -8,6 +8,13 @@
          <pos>0 0.018518518518519</pos><!-- 0 20 -->
          <size>0.989583333333333 0.041666666666667</size><!-- 1900 50 -->
       </batteryIndicator>
+      <text name="clock">
+         <fontSize>0.0292</fontSize>
+         <pos>0.01 0.0165</pos>
+	 <size>0.11 0.05</size><!-- 626 32 -->
+	 <alignment>left</alignment>
+         <color>${statusBarIconColor}</color>
+      </text>
    </view>
 
    <view name="system">

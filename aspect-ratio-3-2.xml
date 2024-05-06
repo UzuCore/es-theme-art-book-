@@ -6,6 +6,13 @@
          <pos>0 0.03125</pos><!-- 0 15 -->
          <size>0.980555555555556 0.066666666666667</size><!-- 706 32 -->
       </batteryIndicator>
+      <text name="clock">
+         <fontSize>0.036</fontSize>
+         <pos>0.02 0.032</pos>
+	 <size>0.11 0.05</size><!-- 626 32 -->
+	 <alignment>left</alignment>
+         <color>${statusBarIconColor}</color>
+      </text>
    </view>
 
    <view name="system,basic,detailed,video">
