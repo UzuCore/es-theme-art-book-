@@ -25,12 +25,12 @@ license:       creative commons CC-BY-NC-SA
       <font_menufooter ifSubset="aspect-ratio:5-3" >0.025</font_menufooter>
       <font_menutext>0.042</font_menutext>
       <font_menutext ifSubset="aspect-ratio:3-2" >0.042</font_menutext>
-      <font_menutext ifSubset="aspect-ratio:4-3" >0.048</font_menutext>
+      <font_menutext ifSubset="aspect-ratio:4-3" >0.043</font_menutext>
       <font_menutext ifSubset="aspect-ratio:5-3" >0.044</font_menutext>
       <font_menutextsmall>0.040</font_menutextsmall>
-      <font_menutextsmall ifSubset="aspect-ratio:3-2" >0.040</font_menutextsmall>
-      <font_menutextsmall ifSubset="aspect-ratio:4-3" >0.046</font_menutextsmall>
-      <font_menutextsmall ifSubset="aspect-ratio:5-3" >0.042</font_menutextsmall>
+      <font_menutextsmall ifSubset="aspect-ratio:3-2" >0.020</font_menutextsmall>
+      <font_menutextsmall ifSubset="aspect-ratio:4-3" >0.026</font_menutextsmall>
+      <font_menutextsmall ifSubset="aspect-ratio:5-3" >0.022</font_menutextsmall>
       <font_menugroup>0.038</font_menugroup>
       <font_menugroup ifSubset="aspect-ratio:3-2" >0.038</font_menugroup>
       <font_menugroup ifSubset="aspect-ratio:4-3" >0.038</font_menugroup>
@@ -407,7 +407,7 @@ license:       creative commons CC-BY-NC-SA
       </menuText>
       <menuTextSmall name="menutextsmall">
          <fontPath>${fontBold}</fontPath>
-         <fontSize>${font_menutext}</fontSize>
+         <fontSize>${font_menutextsmall}</fontSize>
          <color>ffffff77</color>
       </menuTextSmall>
       <menuGroup name="menugroup">
