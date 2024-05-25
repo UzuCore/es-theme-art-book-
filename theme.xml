@@ -15,26 +15,6 @@ license:       creative commons CC-BY-NC-SA
       <spacerImage>./_inc/images/space.png</spacerImage>
       <distributionPath>~/roms/jelos/</distributionPath><!-- storage/roms/jelos/ -->
       <themeCustomizationsPath>${distributionPath}theme-customizations/art-book-next/</themeCustomizationsPath>
-      <font_menutitle>0.038</font_menutitle>
-      <font_menutitle ifSubset="aspect-ratio:3-2" >0.038</font_menutitle>
-      <font_menutitle ifSubset="aspect-ratio:4-3" >0.038</font_menutitle>
-      <font_menutitle ifSubset="aspect-ratio:5-3" >0.038</font_menutitle>
-      <font_menufooter>0.025</font_menufooter>
-      <font_menufooter ifSubset="aspect-ratio:3-2" >0.025</font_menufooter>
-      <font_menufooter ifSubset="aspect-ratio:4-3" >0.025</font_menufooter>
-      <font_menufooter ifSubset="aspect-ratio:5-3" >0.025</font_menufooter>
-      <font_menutext>0.042</font_menutext>
-      <font_menutext ifSubset="aspect-ratio:3-2" >0.042</font_menutext>
-      <font_menutext ifSubset="aspect-ratio:4-3" >0.048</font_menutext>
-      <font_menutext ifSubset="aspect-ratio:5-3" >0.044</font_menutext>
-      <font_menutextsmall>0.040</font_menutext>
-      <font_menutextsmall ifSubset="aspect-ratio:3-2" >0.040</font_menutext>
-      <font_menutextsmall ifSubset="aspect-ratio:4-3" >0.046</font_menutext>
-      <font_menutextsmall ifSubset="aspect-ratio:5-3" >0.042</font_menutext>
-      <font_menugroup>0.038</font_menugroup>
-      <font_menugroup ifSubset="aspect-ratio:3-2" >0.038</font_menugroup>
-      <font_menugroup ifSubset="aspect-ratio:4-3" >0.038</font_menugroup>
-      <font_menugroup ifSubset="aspect-ratio:5-3" >0.038</font_menugroup>
    </variables>
 
    <!-- Aspect Ratio -->
@@ -390,29 +370,29 @@ license:       creative commons CC-BY-NC-SA
    <view name="menu">
       <menuText name="menutitle">
          <fontPath>${fontBold}</fontPath>
-         <fontSize>${font_menutitle}</fontSize>
+         <fontSize>0.045</fontSize>
          <color>ffffff</color>
       </menuText>
       <menuText name="menufooter">
          <fontPath>${fontLight}</fontPath>
-         <fontSize>${font_menufooter}</fontSize>
+         <fontSize>0.025</fontSize>
          <color>ffffff77</color>
       </menuText>
       <menuText name="menutext">
          <fontPath>${fontBold}</fontPath>
-         <fontSize>${font_menutext}</fontSize>
+         <fontSize>0.04</fontSize>
          <color>ffffff77</color>
          <separatorColor>ffffff11</separatorColor>
          <selectedColor>ffffff</selectedColor>
       </menuText>
       <menuTextSmall name="menutextsmall">
          <fontPath>${fontBold}</fontPath>
-         <fontSize>${font_menutext}</fontSize>
+         <fontSize>0.035</fontSize>
          <color>ffffff77</color>
       </menuTextSmall>
       <menuGroup name="menugroup">
          <fontPath>${fontRegular}</fontPath>
-         <fontSize>${font_menugroup}</fontSize>
+         <fontSize>0.035</fontSize>
          <color>ffffff</color>
          <separatorColor>ffffff99</separatorColor>
          <backgroundColor>00000000</backgroundColor>
