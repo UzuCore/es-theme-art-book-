@@ -13,32 +13,32 @@ license:       creative commons CC-BY-NC-SA
       <fontRegular>./_inc/fonts/NanumSquareNeo-bRg.ttf</fontRegular>
       <fontLogo>./_inc/fonts/ChangaOne-Italic.ttf</fontLogo>
       <spacerImage>./_inc/images/space.png</spacerImage>
-      <distributionPath>~/roms/jelos/</distributionPath><!-- storage/roms/jelos/ -->
+      <distributionPath>~/</distributionPath>
       <themeCustomizationsPath>${distributionPath}theme-customizations/art-book-next/</themeCustomizationsPath>
       <font_menutitle>0.038</font_menutitle>
-      <font_menutitle ifSubset="aspect-ratio:3-2" >0.038</font_menutitle>
       <font_menutitle ifSubset="aspect-ratio:4-3" >0.038</font_menutitle>
-      <font_menutitle ifSubset="aspect-ratio:5-3" >0.038</font_menutitle>
+      <font_menutitle ifSubset="aspect-ratio:3-2" >0.038</font_menutitle>
+      <font_menutitle ifSubset="aspect-ratio:1-1" >0.038</font_menutitle>
       <font_menufooter>0.025</font_menufooter>
-      <font_menufooter ifSubset="aspect-ratio:3-2" >0.025</font_menufooter>
       <font_menufooter ifSubset="aspect-ratio:4-3" >0.025</font_menufooter>
-      <font_menufooter ifSubset="aspect-ratio:5-3" >0.025</font_menufooter>
+      <font_menufooter ifSubset="aspect-ratio:3-2" >0.025</font_menufooter>
+      <font_menufooter ifSubset="aspect-ratio:1-1" >0.025</font_menufooter>
       <font_menutext>0.042</font_menutext>
+      <font_menutext ifSubset="aspect-ratio:4-3" >0.042</font_menutext>
       <font_menutext ifSubset="aspect-ratio:3-2" >0.042</font_menutext>
-      <font_menutext ifSubset="aspect-ratio:4-3" >0.043</font_menutext>
-      <font_menutext ifSubset="aspect-ratio:5-3" >0.044</font_menutext>
+      <font_menutext ifSubset="aspect-ratio:1-1" >0.042</font_menutext>
       <font_menutextsmall>0.040</font_menutextsmall>
-      <font_menutextsmall ifSubset="aspect-ratio:3-2" >0.020</font_menutextsmall>
-      <font_menutextsmall ifSubset="aspect-ratio:4-3" >0.026</font_menutextsmall>
-      <font_menutextsmall ifSubset="aspect-ratio:5-3" >0.022</font_menutextsmall>
+      <font_menutextsmall ifSubset="aspect-ratio:4-3" >0.040</font_menutextsmall>
+      <font_menutextsmall ifSubset="aspect-ratio:3-2" >0.040</font_menutextsmall>
+      <font_menutextsmall ifSubset="aspect-ratio:1-1" >0.040</font_menutextsmall>
       <font_menugroup>0.038</font_menugroup>
-      <font_menugroup ifSubset="aspect-ratio:3-2" >0.038</font_menugroup>
       <font_menugroup ifSubset="aspect-ratio:4-3" >0.038</font_menugroup>
-      <font_menugroup ifSubset="aspect-ratio:5-3" >0.038</font_menugroup>
+      <font_menugroup ifSubset="aspect-ratio:3-2" >0.038</font_menugroup>
+      <font_menugroup ifSubset="aspect-ratio:1-1" >0.038</font_menugroup>
    </variables>
 
    <!-- Aspect Ratio -->
-   <subset name="aspect-ratio" displayName="Aspect Ratio">
+   <subset name="aspect-ratio" displayName="화면비율">
       <include name="16-9" displayName="16:9" />
       <include name="16-10" displayName="16:10" />
       <include name="4-3" displayName="4:3" />
@@ -48,7 +48,7 @@ license:       creative commons CC-BY-NC-SA
    </subset>
 
    <!-- Color Scheme -->
-   <subset name="color-scheme" displayName="Color Scheme">
+   <subset name="color-scheme" displayName="컬러세트">
       <include name="art-book-next" displayName="Art Book Next" />
       <include name="noir" displayName="Noir" />
       <include name="art-book" displayName="Art Book" />
@@ -57,19 +57,19 @@ license:       creative commons CC-BY-NC-SA
       <include name="famicom" displayName="Famicom" />
       <include name="oled" displayName="OLED" />
       <include name="noir-oled" displayName="Noir + OLED" />
-      <include name="custom" displayName="Custom" />
+      <include name="custom" displayName="커스텀" />
    </subset>
    <include>./colors.xml</include>
    <include ifSubset="color-scheme:custom">${themeCustomizationsPath}colors.xml</include>
 
    <!-- Fonts -->
-   <subset name="fonts" displayName="Font Size">
-      <include name="default" displayName="Default" />
-      <include name="custom" displayName="Custom" />
+   <subset name="fonts" displayName="폰트크기">
+      <include name="default" displayName="기본" />
+      <include name="custom" displayName="커스텀" />
    </subset>
 
    <!-- System View Style -->
-   <subset name="system-view-style" displayName="System View: Style">
+   <subset name="system-view-style" displayName="시스템 스타일">
       <include name="multi" displayName="Multi Artwork" />
       <include name="centered" displayName="Centered Artwork (Multiple Logos)" />
       <include name="centered-one-logo" displayName="Centered Artwork (Single Logo)" />
@@ -80,7 +80,7 @@ license:       creative commons CC-BY-NC-SA
    </subset>
 
    <!-- Gamelist View Style -->
-   <subset name="gamelist-view-style" displayName="Gamelist View: Style">
+   <subset name="gamelist-view-style" displayName="게임목록 스타일">
       <include name="metadata-on" displayName="Metadata On" />
       <include name="metadata-on-immersive" displayName="Metadata On (Immersive)" />
       <include name="metadata-off" displayName="Metadata Off" />
